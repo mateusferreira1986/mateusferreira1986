@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mateus Ferreira · Portfólio</title>
+<meta name="description" content="Portfólio de Mateus Ferreira, estudante de Ciência de Dados na Fatec Adamantina.">
+<style>
+  :root {
+    --ink: #14283b;
+    --ink-soft: #3d5163;
+    --paper: #f4f7f8;
+    --card: #ffffff;
+    --line: #d5dee3;
+    --accent: #2b7a8c;
+    --head-bg: #14283b;
+    --head-text: #f4f7f8;
+    --head-muted: #b7c7d2;
+    --link: #1d6677;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #e8eef2;
+      --ink-soft: #b3c2cc;
+      --paper: #0f1b26;
+      --card: #162634;
+      --line: #28404f;
+      --accent: #5fb3c4;
+      --head-bg: #0a141d;
+      --head-text: #f4f7f8;
+      --head-muted: #a9bbc6;
+      --link: #7cc6d5;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.65;
+  }
+  a { color: var(--link); text-underline-offset: 3px; }
+  a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+
+  header {
+    background: var(--head-bg);
+    color: var(--head-text);
+    padding: clamp(2.5rem, 8vw, 5rem) 1.25rem clamp(2rem, 6vw, 3.5rem);
+  }
+  .wrap { max-width: 44rem; margin: 0 auto; }
+  h1 {
+    margin: 0;
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    font-weight: 700;
+    font-size: clamp(2.4rem, 10vw, 4.25rem);
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+  }
+  .curso { margin: 1rem 0 0; font-size: 1.15rem; color: var(--head-text); }
+  .faculdade { margin: 0.1rem 0 0; color: var(--head-muted); }
+  blockquote {
+    margin: clamp(1.75rem, 5vw, 2.5rem) 0 0;
+    padding: 0 0 0 1rem;
+    border-left: 3px solid var(--accent);
+    color: var(--head-muted);
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  main { padding: clamp(2rem, 6vw, 3.5rem) 1.25rem 1rem; }
+  .projeto-titulo {
+    margin: 0 0 0.35rem;
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    font-size: clamp(1.4rem, 5vw, 1.9rem);
+    line-height: 1.25;
+  }
+  .projeto-sub { margin: 0 0 2rem; color: var(--ink-soft); }
+
+  section {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--accent);
+    border-radius: 4px;
+    padding: 1.25rem 1.25rem 1.35rem;
+    margin: 0 0 1.25rem;
+  }
+  h2 { margin: 0 0 0.5rem; font-size: 1.2rem; line-height: 1.3; }
+  section p { margin: 0; max-width: 40rem; }
+  ul { margin: 0; padding-left: 1.2rem; max-width: 40rem; }
+  li { margin: 0.35rem 0; padding-left: 0.2rem; }
+  li::marker { color: var(--accent); }
+
+  footer {
+    border-top: 1px solid var(--line);
+    margin-top: 2rem;
+    padding: 2rem 1.25rem calc(2.5rem + env(safe-area-inset-bottom, 0px));
+  }
+  footer h2 { font-size: 1.1rem; }
+  .contatos { list-style: none; padding: 0; margin: 0.75rem 0 0; }
+  .contatos li { margin: 0.5rem 0; padding: 0; overflow-wrap: anywhere; }
+  .contatos span { display: inline-block; min-width: 5.5rem; color: var(--ink-soft); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <h1>Mateus Ferreira</h1>
+    <p class="curso">Ciência de Dados</p>
+    <p class="faculdade">Faculdade de Tecnologia de Adamantina (Fatec)</p>
+    <blockquote>
+      “Sou alguém que enfrenta desafios de cabeça erguida, que não desiste diante das dificuldades, que busca conhecimento para evoluir e trabalha todos os dias para construir um futuro melhor. Posso até encontrar obstáculos pelo caminho, mas minha determinação é sempre maior que minhas dificuldades.” 💪
+    </blockquote>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <h2 class="projeto-titulo">Proposta de inovação tecnológica na administração penitenciária</h2>
+    <p class="projeto-sub">Projeto acadêmico</p>
+
+    <section>
+      <h2>Problema</h2>
+      <p>Estudo de viabilidade para utilização de reconhecimento facial no controle de saída e retorno de presos autorizados ao trabalho externo.</p>
+    </section>
+
+    <section>
+      <h2>O que eu fiz</h2>
+      <p>Desenvolvi uma proposta de utilização de reconhecimento facial para automatizar a identificação de presos autorizados ao trabalho externo, registrando os horários de saída e retorno à unidade prisional. A solução busca reduzir falhas de identificação, aumentar a segurança e modernizar os procedimentos de controle.</p>
+    </section>
+
+    <section>
+      <h2>Como eu fiz</h2>
+      <p>Realizei uma pesquisa exploratória e documental, analisando a aplicação do reconhecimento facial na segurança pública e as possibilidades de adaptação ao ambiente penitenciário. Considerei aspectos tecnológicos, operacionais, custos de implantação, segurança da informação e proteção de dados biométricos, utilizando pesquisas acadêmicas, legislação e ferramentas de análise e documentação.</p>
+    </section>
+
+    <section>
+      <h2>Resultado</h2>
+      <p>Os resultados esperados da proposta são:</p>
+      <ul>
+        <li>Maior confiabilidade na identificação dos presos.</li>
+        <li>Registro automatizado dos horários de saída e retorno.</li>
+        <li>Redução de falhas nos registros manuais.</li>
+        <li>Melhor rastreabilidade e auditoria dos procedimentos.</li>
+        <li>Modernização da gestão penitenciária.</li>
+      </ul>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <h2>Contatos</h2>
+    <ul class="contatos">
+      <li><span>E-mail</span><a href="mailto:mateus.ferreira@aluno.cps.sp.gov.br">mateus.ferreira@aluno.cps.sp.gov.br</a></li>
+      <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/mateus-ferreira-b9641342" target="_blank" rel="noopener">linkedin.com/in/mateus-ferreira-b9641342</a></li>
+      <li><span>GitHub</span><a href="https://github.com/mateusferreira1986" target="_blank" rel="noopener">github.com/mateusferreira1986</a></li>
+    </ul>
+  </div>
+</footer>
+
+</body>
+</html>
